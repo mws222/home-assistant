@@ -1,0 +1,6 @@
+configuration.yaml*
+secrets.yaml
+home-assistant*
+www/*
+update.sh
+deps/*

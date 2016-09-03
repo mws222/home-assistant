@@ -1,0 +1,41 @@
+##############
+#  UPSTAIRS  #
+##############
+
+  upstairs_lights:
+    name: Upstairs Bedrooms
+    #view: yes
+    entities: 
+      - light.upstairs_dresser
+      - light.upstairs_nightstand
+
+##############
+# LIGHT STRIP#
+##############
+  light_strips:
+    name: Light Strips
+    entities: 
+      - light.bedroom_lightstrip
+      - light.family_room_tv
+      - light.kitchen_counter
+
+
+#############
+#  BEDROOM  #
+#############
+  bedroom:  
+    name: Bedroom
+    entities: 
+      - light.bedroom_lightstrip
+      - light.bedroom_1
+      - light.beroom_2
+
+############
+#  COOPER  #
+############
+  general:
+    name: Cooper C Cooper Do
+    entities: 
+      - light.bedroom_1
+      - light.hallway
+      - light.family_room

@@ -1,0 +1,20 @@
+zone:
+  name:  Michael Work
+  latitude: !secret ms_lat
+  longitude: !secret ms_long
+  radius: 250
+  icon: mdi:bank
+
+zone 2:
+  name: Keri Work
+  latitude: !secret ks_lat
+  longitude: !secret ks_long
+  radius: 250
+  icon: mdi:worker
+
+zone 3:
+  name: Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  radius: 100
+  icon: mdi:castle 

@@ -1,0 +1,19 @@
+- alias: "Keri gets ready for bed"
+  trigger:
+    - platform: time
+      hours: 21
+      minutes: 40
+      seconds: 0
+  action:
+    service: light.turn_on
+    entity_id: group.upstairs_lights
+
+- alias: "Keri goes to bed"
+  trigger: 
+    - platform: time
+      hours: 22
+      minutes: 15
+      seconds: 0
+  action:
+     service: light.turn_off
+     entity_id: group.upstairs_lights

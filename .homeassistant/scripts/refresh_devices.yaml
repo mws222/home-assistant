@@ -1,0 +1,10 @@
+sequence:
+- service: mqtt.publish
+  data:
+    topic: "owntracks/mws222/michael_phone/cmd"
+    payload_template: '{"_type":"cmd","action":"reportLocation"}'
+
+- service: mqtt.publish
+  data:
+    topic: "owntracks/kam407/keri_phone/cmd"
+    payload_template:  '{"_type":"cmd","action":"reportLocation"}'

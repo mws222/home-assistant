@@ -1,0 +1,5 @@
+switch:
+  - platform: template
+    switches:
+      pihole:
+        friendly_name: 'Ad Block'

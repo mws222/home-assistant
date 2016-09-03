@@ -1,0 +1,14 @@
+kam407_keri_phone:
+  name: Keri
+  mac:
+  picture: /local/Keri.jpg
+  track: yes
+  hide_if_away: no
+
+mws222_michael_phone:
+  name: Michael
+  mac: 
+  picture: /local/Michael.jpg
+  track: yes
+  hide_if_away: no
+

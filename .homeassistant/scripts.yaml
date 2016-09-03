@@ -1,0 +1,1 @@
+refresh_devices: !include scripts/refresh_devices.yaml
