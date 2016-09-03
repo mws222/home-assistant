@@ -1,0 +1,6 @@
+- platform: pushbullet
+  api_key: !secret pb_api
+
+- platform: html5
+  gcm_api_key: !secret g_api
+  gcm_sender_id: !secret g_projid
