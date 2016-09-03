@@ -1,0 +1,8 @@
+- alias: "Sunset"
+  trigger:
+    - platform: sun
+      event: sunset
+      offset: '-00:45:00'
+  action:
+    service: light.turn_on
+    entity_id: group.general
